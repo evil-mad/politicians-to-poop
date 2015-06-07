@@ -25,10 +25,10 @@ chrome.storage.sync.get({
     extended: false
   }, function(items) {
 	  
-	var addShortNames = false; 
 	var addDemocrats = true; 
 	var addRepublicans = true; 
 	var addOthers = true; 
+	var addShortNames = false; 
 
 	var SearchString = '';
 	addDemocrats = items.democrats;
@@ -80,11 +80,11 @@ chrome.storage.sync.get({
 			}
 		}
 
-	
+/*	
 	if (addOthers == true)
 		{
 			// No "major" notable candidates yet. That's what auto-updates are for, right? 
-/*			if (SearchString != '')
+			if (SearchString != '')
 				{SearchString += '|';}
 			SearchString += 'Roseanne Cherrie Barr|Roseanne Barr|Zoltan Istvan|Vermin Supreme'; 
 
@@ -92,8 +92,9 @@ chrome.storage.sync.get({
 			{
 				SearchString += "";
 			}
-*/
+
 		}
+*/
 
 		$("body *").replaceText( RegExp(SearchString, "gi"), "<span class='poopy'>💩</span>" );
 		//This jQuery based search and replace is respectful of tags-- replaces only text in text nodes. Links still work!
