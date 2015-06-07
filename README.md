@@ -50,14 +50,14 @@ Republicans: Ted Cruz, Carly Fiorina, Ben Carson, Marco Rubio, Rick Santorum, Li
 
 Democrats: Hillary Clinton, Bernie Sanders, Lincoln Chafee, and Martin O'Malley.
 
-Third-party and independent candidates: None, at present.
+Third-party and independent candidates: Roseanne Barr, Zoltan Istvan, Waka Flocka Flame, and Vermin Supreme. (While none of these yet seem "major" to our untrained eyes, it is good to have some names here as placeholders for future use.)
 
 
 
 Known issues
 =============
 
-Text replacement does not reliably work in some circumstances, including on pages of Google search results. 
+Text replacement does not reliably work in some circumstances, including on pages of Google search results. This seems to be an issue for other text replacement extensions of this sort as well. 
 
 If you identify other circumstances where text replacement does not work reliably (or generates too many false positives), you are welcome to open an issue. 
 
