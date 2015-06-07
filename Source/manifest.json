@@ -1,13 +1,23 @@
 {
 	"manifest_version": 2,
-	"name": "Cloud To Butt",
-	"version": "1.0",
-	"description": "Replaces the text 'the cloud' with 'my butt'.",
+	"name": "Politicians To Poop",
+	"version": "1.000002",
+	"description": "Replace presidential candidate names with the poop emoji.",
+	"options_page": "options.html",
+	"permissions": ["storage"],
+	"options_ui": { 
+		"page": "options.html", 
+		"chrome_style": true 
+		},
+	"icons": {	"16": "icon16.png",
+				"48": "icon48.png",
+				"128": "icon128.png",
+				"256": "icon256.png" },
 	"content_scripts": 
 	[
 		{
 			"matches": ["*://*/*"],
-			"js": ["content_script.js"],
+			"js": [ "jquery-2.1.4.min.js", "jquery.ba-replacetext.min.js", "content_script.js" ],
 			"run_at": "document_end"
 		}
 	]
