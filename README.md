@@ -23,7 +23,7 @@ No particular agenda, sorry. This is a public service project from Evil Mad Scie
 Possible reasons that you might want to use this extension might include:
 
 * You are from outside the US, and don't need to hear these names every day.
-* You are temporarily overloaded by the amount of poop that the candidates sling at one another
+* You are temporarily overloaded by the amount of poop that the candidates sling at one another.
 * For humor's sake.
 
 
