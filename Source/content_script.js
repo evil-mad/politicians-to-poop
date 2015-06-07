@@ -1,4 +1,4 @@
-function process_page() {
+function poopify_page() {
 chrome.storage.sync.get({
 	democrats: true,
 	republicans: true,
@@ -75,9 +75,8 @@ chrome.storage.sync.get({
 			}
 */
 		}
-	
-		var re = new RegExp(SearchString, "gi");
-		$("body *").replaceText( re, "<span class='poopy'>💩</span>" );
+
+		$("body *").replaceText( RegExp(SearchString, "gi"), "<span class='poopy'>💩</span>" );
 		//This jQuery based search and replace is respectful of tags-- replaces only text. Links still work!
 		
 		$("<style type='text/css'> .poopy{ font-style: normal !important;font-weight: normal !important ;font-family: serif !important;} </style>").appendTo("head");
@@ -87,6 +86,4 @@ chrome.storage.sync.get({
 
 }
 
-
-
-process_page();
+poopify_page();
