@@ -9,7 +9,7 @@ Options allow you to poopify the names of Democrats, Republicans, or both. (Any 
 
 
 
-[Direct download of crx file](https://github.com/panicsteve/cloud-to-butt/blob/master/pol-to-poo.crx?raw=true)
+[Direct download of crx file](https://github.com/oskay/p-to-p/blob/master/pol-to-poo.crx?raw=true)
 
 
 
