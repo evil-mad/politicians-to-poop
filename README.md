@@ -15,11 +15,10 @@ Really?
 Yes.
 
 
-
-Really?
+What is your political agenda, here? 
 =============
 
-This is a public service project from Evil Mad Scientist Laboratories. 
+No particular agenda, sorry. This is a public service project from Evil Mad Scientist Laboratories. 
 
 Possible reasons that you might want to use this extension might include:
 
@@ -28,7 +27,7 @@ Possible reasons that you might want to use this extension might include:
 * For humor's sake.
 
 
-Please note that no judgement upon any of the named individuals, nor their platforms, parties, or beliefs is implied or intended. We are offering an equal-opportunity text replacement tool, for the good of all humanity.
+No judgement upon any of the named individuals, nor their platforms, parties, or beliefs is either implied or intended. We are offering an equal-opportunity text replacement tool, for the good of all humanity.
 
 
 Installation
@@ -41,12 +40,10 @@ In Chrome, choose Window > Extensions. Drag pol-to-poo.crx into the page that ap
 
 
 
-
-What about FireFox, Safari, Opera, and Lynx?
+What about FireFox, Safari, Opera?
 =============
 
-Sorry, not yet. 
-
+Sorry, not yet. Pull requests and/or pointers to versions for those browsers will be happily accepted.
 
 
 List of participants
