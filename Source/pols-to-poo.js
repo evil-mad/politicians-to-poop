@@ -1,3 +1,22 @@
+
+/* We have deviated from the approach used in the original "The Cloud" to "My Butt" 
+	( https://github.com/panicsteve/cloud-to-butt )
+	
+	* Main issue: Emoji do not display in certain font faces, styles, and weights.
+	* To get around this, we need to wrap each "pile of poo" in a span that can be styled.
+	
+	To avoid breaking things, we search the document tree for text nodes, and only perform
+	the search and replace operations within those text nodes.
+	
+	Using an approach closer to that of the jQuery highlight plugin -- where we 
+	wrap the target text in a span by adding nodes around it -- is a better
+	approach in principle, but still does not properly substitute the text 
+	on a page of Google search results. 
+	http://bartaz.github.io/sandbox.js/jquery.highlight.html
+	
+	
+*/	
+
 function poopify_page() {
 chrome.storage.sync.get({
 	democrats: true,
@@ -77,7 +96,7 @@ chrome.storage.sync.get({
 		}
 
 		$("body *").replaceText( RegExp(SearchString, "gi"), "<span class='poopy'>💩</span>" );
-		//This jQuery based search and replace is respectful of tags-- replaces only text. Links still work!
+		//This jQuery based search and replace is respectful of tags-- replaces only text in text nodes. Links still work!
 		
 		$("<style type='text/css'> .poopy{ font-style: normal !important;font-weight: normal !important ;font-family: serif !important;} </style>").appendTo("head");
 		//Emoji will often not display in a CSS container that is specified to be in bold face, italic, or a specific font.
