@@ -9,8 +9,17 @@ Options allow you to poopify the names of Democrats, Republicans, or both. (Any 
 
 
 
+Really?
+=============
 
-Please note that no judgement upon any of these individuals, nor their platforms, parties, or believes is implied or intended. We are offering an equal-opportunity text replacement tool, for the good of all humanity.
+Yes.
+
+
+
+Really?
+=============
+
+This is a public service project from Evil Mad Scientist Laboratories. 
 
 Possible reasons that you might want to use this extension might include:
 
@@ -18,6 +27,8 @@ Possible reasons that you might want to use this extension might include:
 * You are temporarily overloaded by the amount of poop that the candidates sling at one another
 * For humor's sake.
 
+
+Please note that no judgement upon any of the named individuals, nor their platforms, parties, or beliefs is implied or intended. We are offering an equal-opportunity text replacement tool, for the good of all humanity.
 
 
 Installation
@@ -27,6 +38,14 @@ Installation
 [Direct download of crx file](https://github.com/oskay/politicians-to-poop/blob/master/pol-to-poo.crx?raw=true)
 
 In Chrome, choose Window > Extensions. Drag pol-to-poo.crx into the page that appears.
+
+
+
+
+What about FireFox, Safari, Opera, and Lynx?
+=============
+
+Sorry, not yet. 
 
 
 
