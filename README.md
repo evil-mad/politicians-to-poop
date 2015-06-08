@@ -28,7 +28,7 @@ Sorry, not yet. Pull requests and/or pointers to versions for those browsers wil
 What is the political agenda here? 
 =============
 
-No particular agenda, sorry. This is a public service project from Evil Mad Scientist Laboratories. 
+This is a public service project from Evil Mad Scientist Laboratories. 
 
 Possible reasons that you might want to use this extension might include:
 
@@ -38,7 +38,6 @@ Possible reasons that you might want to use this extension might include:
 
 
 No judgement upon any of the named individuals, nor their platforms, parties, or beliefs is either implied or intended. This is an equal-opportunity text replacement tool, for the good of all humanity.
-
 
 
 List of named participants

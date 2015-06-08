@@ -62,7 +62,7 @@ chrome.storage.sync.get({
 				
 				if ( addShortNames == true)
 				{
-					SearchString += "|Cruz|Carly|Carson|Graham|Pataki|Rand|Paul|Perry|Jeb|Governor Bush";
+					SearchString += "|Cruz|Carly|Carson|Graham|Pataki|Perry|Jeb|Governor Bush|Paul";				
 				}
 			}
 		
@@ -82,10 +82,9 @@ chrome.storage.sync.get({
 				}
 			}
 	
-		
 		if (addOthers == true)
 			{
-				// No "major" notable candidates yet. That's what auto-updates are for, right? 
+				// No "major" candidates yet. That's what auto-updates are for, right? 
 				if (SearchString != '')
 					{SearchString += '|';}
 				SearchString += 'Roseanne Cherrie Barr|Roseanne Barr|Zoltan Istvan|Vermin Supreme|Waka Flocka Flame|Juaquin James Malphurs'; 
@@ -95,21 +94,29 @@ chrome.storage.sync.get({
 				{
 					SearchString += "|Roseanne|Zoltan|Flocka|Waka";
 				}
-	
 			}
 	
 			$("body *").replaceText( RegExp(SearchString, "gi"), "<span class='poopy'>💩</span>" );
 			//This jQuery based search and replace is respectful of tags-- replaces only text in text nodes. Links still work!
+
+			if (( addShortNames == true) && (addRepublicans == true))
+				{	
+					$("body *").replaceText( /\bRand\b/gi, "<span class='poopy'>💩</span>"  );	// Use word boundaries to prevent false positives.
+				}
 			
 			$("<style type='text/css'> .poopy{ font-style: normal !important;font-weight: normal !important ;font-family: serif !important;} </style>").appendTo("head");
 			//Emoji will often not display in a CSS container that is specified to be in bold face, italic, or a specific font.
 			//This CSS override will fix that in most (but not all) cases.
 			
 			}
-			
-		
+			 
 });
 
 }
 
-poopify_page();
+window.addEventListener ("load", myMain, false);
+// Delay load for better compatibility with Google searches and other "slow" JS. Possibly not helping much....
+
+function myMain (evt) {	
+    poopify_page();
+} 
