@@ -1,9 +1,9 @@
 Politicians to Poop
 =============
 
-Chrome extension that replaces the names of major political candidates with the poop emoji (💩).
+An extension for the Chrome browser that replaces the names of presidential candidates with the poop emoji (💩) in *most* web pages that you visit.
 
-Specifically, those running for the office of President of the United States of America in the 2016 cycle. 
+Specifically, the names of candidates for the office of President of the United States of America in the 2016 cycle. 
 
 Options allow you to "poopify" the names of Democrats, Republicans, or both. (Any major third-party candidates that emerge will also be added to the list.) 
 
@@ -11,6 +11,10 @@ Options allow you to "poopify" the names of Democrats, Republicans, or both. (An
 
 Installation
 =============
+
+Coming soon to the Chrome web store, as a free extension. 
+
+Manual installation: 
 
 [Direct download of crx file](https://github.com/oskay/politicians-to-poop/blob/master/pol-to-poo.crx?raw=true)
 
@@ -70,7 +74,6 @@ A project by Evil Mad Scientist Laboratories: http://www.evilmadscientist.com
 
 Initially Forked from: https://github.com/panicsteve/cloud-to-butt
 
-Mostly Inspired by: https://github.com/ericwbailey/millennials-to-snake-people
+Inspired by: https://github.com/ericwbailey/millennials-to-snake-people
 
 Using: http://benalman.com/projects/jquery-replacetext-plugin/
-
