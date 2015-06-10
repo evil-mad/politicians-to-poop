@@ -1,4 +1,3 @@
-
 /* We have deviated from the approach used in the original "The Cloud" to "My Butt" 
 	( https://github.com/panicsteve/cloud-to-butt )
 	
@@ -6,13 +5,7 @@
 	* To get around this, we need to wrap each "pile of poo" in a span that can be styled.
 	
 	To avoid breaking things, we search the document tree for text nodes, and only perform
-	the search and replace operations within those text nodes.
-	
-	Using an approach closer to that of the jQuery highlight plugin -- where we 
-	wrap the target text in a span by adding nodes around it -- is a better
-	approach in principle, but still does not properly substitute the text 
-	on a page of Google search results. 
-	http://bartaz.github.io/sandbox.js/jquery.highlight.html
+	the search and replace operations within those text nodes. 
 */	
 
 function poopify_page() {
@@ -21,8 +14,8 @@ chrome.storage.sync.get({
 	republicans: true,
 	thirdparty: true,
     extended: false
-  }, function(items) {
-	  
+  }, function(items) { 
+	  	
 	var addDemocrats = true; 
 	var addRepublicans = true; 
 	var addOthers = true; 
@@ -112,9 +105,11 @@ chrome.storage.sync.get({
 
 }
 
-window.addEventListener ("load", myMain, false);
-// Delay load for better compatibility with Google searches and other "slow" JS. Possibly not helping much....
+var timeout = null;
+document.addEventListener("DOMSubtreeModified", function() {
+    if(timeout) {
+        clearTimeout(timeout);
+    }
+    timeout = setTimeout(poopify_page, 500);
+}, false);
 
-function myMain (evt) {	
-    poopify_page();
-} 

@@ -1,7 +1,7 @@
 Politicians to Poop
 =============
 
-An extension for the Chrome browser that replaces the names of presidential candidates with the poop emoji (💩) in *most* web pages that you visit.
+An extension for the Chrome browser that replaces the names of presidential candidates with the poop emoji (💩) in most web pages that you visit.
 
 Specifically, the names of candidates for the office of President of the United States of America in the 2016 cycle. 
 
@@ -60,9 +60,18 @@ Third-party and independent candidates: Roseanne Barr, Zoltan Istvan, Waka Flock
 Known issues
 =============
 
-Text replacement does not reliably work in some circumstances, including on pages of Google search results. This seems to be an issue for other text replacement extensions of this sort as well. 
+Text replacement does not reliably work in some circumstances:
+* Text within images or other graphics
+* Some pop-up windows and other cases of dynamically loaded content; we are trying to identify and fix these cases
+* When a name is interrupted by HTML tags or style changes, for example if the last name is in bold font, but the first name is not.
 
-If you identify other circumstances where text replacement does not work reliably (or generates too many false positives), you are welcome to open an issue. 
+Text replacement may also work *too well* in some circumstances:
+* Text may be inappropriately replaced in text input boxes, for example if you type one of the candidate names.
+* The filter may be a little too aggressive in some cases. For example, "Carly" or "Hillary" on their own may match many other names besides those of the actual candidates. In the options, you may wish to keep the "Include short but common abbreviated name forms..." checkbox disabled, in order to reduce the number of "false positives."
+
+If you identify other circumstances where text replacement does not work reliably (or generates too many false positives), please submit an issue on our github project to let us know.
+
+
 
 
 
@@ -76,4 +85,8 @@ Initially Forked from: https://github.com/panicsteve/cloud-to-butt
 
 Inspired by: https://github.com/ericwbailey/millennials-to-snake-people
 
+Further inspired by: This year's crop of presidential candidates
+
 Using: http://benalman.com/projects/jquery-replacetext-plugin/
+
+Special thanks to our dedicated team of beta testers!
