@@ -1,9 +1,7 @@
 Politicians to Poop
 =============
 
-An extension for the Chrome browser that replaces the names of presidential candidates with the poop emoji (💩) in most web pages that you visit.
-
-Specifically, the names of candidates for the office of President of the United States of America in the 2016 cycle. 
+An extension for the Chrome browser that replaces the names of presidential candidates (US, 2016) with the pile-of-poo emoji (💩) in most web pages that you visit.
 
 Options allow you to "poopify" the names of Democrats, Republicans, or both. (Any major third-party candidates that emerge will also be added to the list.) 
 
