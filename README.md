@@ -16,7 +16,7 @@ Coming soon to the Chrome web store, as a free extension.
 
 Manual installation: 
 
-[Direct download of crx file](https://github.com/oskay/politicians-to-poop/blob/master/pol-to-poo.crx?raw=true)
+[Direct download of crx file](https://github.com/evil-mad/politicians-to-poop/blob/master/pol-to-poo.crx?raw=true)
 
 In Chrome, choose Window > Extensions. Drag pol-to-poo.crx into the page that appears.
 
