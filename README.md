@@ -30,7 +30,8 @@ Sorry, not yet. Pull requests and/or pointers to versions for those browsers wil
 What is the political agenda here? 
 =============
 
-This is a public service project from Evil Mad Scientist Laboratories. 
+This is a public service project from <a href="http://www.evilmadscientist.com" title="Evil Mad Scientist Laboratories">
+an example</a>. 
 
 Possible reasons that you might want to use this extension might include:
 
@@ -76,8 +77,8 @@ If you identify other circumstances where text replacement does not work reliabl
 Attribution
 =============
 
-A project by Evil Mad Scientist Laboratories: http://www.evilmadscientist.com
-
+A project by <a href="http://www.evilmadscientist.com" title="Evil Mad Scientist Laboratories">
+an example</a>.
 
 Initially Forked from: https://github.com/panicsteve/cloud-to-butt
 
