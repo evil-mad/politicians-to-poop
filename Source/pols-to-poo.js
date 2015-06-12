@@ -53,7 +53,7 @@ chrome.storage.sync.get({
 				
 				if ( addShortNames == true)
 				{
-					SearchString += "|Cruz|Carly|Carson|Graham|Pataki|Perry|Jeb|Governor Bush|Paul";				
+					SearchString += "|Cruz|Carly|Carson|Graham|Pataki|Perry|Jeb|Governor Bush";				
 				}
 			}
 		
@@ -93,7 +93,7 @@ chrome.storage.sync.get({
 
 			if (( addShortNames == true) && (addRepublicans == true))
 				{	
-					$("body *").replaceText( /\bRand\b/gi, "<span class='poopy'>💩</span>"  );	// Use word boundaries to prevent false positives.
+					$("body *").replaceText( /\bRand\b|\bBush\b|\bPaul\b/gi, "<span class='poopy'>💩</span>"  );	// Use word boundaries to prevent false positives.
 				}
 			
 			$("<style type='text/css'> .poopy{ font-style: normal !important;font-weight: normal !important ;font-family: serif !important;} </style>").appendTo("head");
