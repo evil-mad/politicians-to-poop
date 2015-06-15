@@ -1,16 +1,27 @@
 Politicians to Poop
 =============
 
-An extension for the Chrome browser that replaces the names of presidential candidates (US, 2016) with the pile-of-poo emoji (💩) in most web pages that you visit.
+A free extension for the Chrome browser that replaces the names of presidential candidates (US, 2016) with the pile-of-poo emoji (💩) in most web pages that you visit.
 
 Options allow you to "poopify" the names of Democrats, Republicans, or both. (Any major third-party candidates that emerge will also be added to the list.) 
  
+
+*"This extension is improving my life."*
+	&mdash; Eunice R.
+
 
 
 Installation
 =============
 
-Coming soon to the Chrome web store, as a free extension. 
+Step 1: Visit the [Chrome web store](https://chrome.google.com/webstore/detail/politicians-to-poop/fghbpihcplaofldgkofhbbcgdfgikcnp), as a free extension. 
+
+Step 2: (Optional) Open Window > Extensions within Chrome, and set your preferences for political parties.
+
+Step 3: Carry on with your new, improved life. 
+
+
+
 
 Manual installation: 
 
