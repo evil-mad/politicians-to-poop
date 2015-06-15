@@ -23,31 +23,35 @@ Step 3: Carry on with your new, improved life.
 
 
 
-Manual Installation
+Screenshots
 =============
 
-(For people who like to do things the hard way.)
 
-[Direct download of crx file](https://github.com/evil-mad/politicians-to-poop/blob/master/pol-to-poo.crx?raw=true)
-
-In Chrome, choose Window > Extensions. Drag pol-to-poo.crx into the page that appears.
+### Extension installed
+![](http://i.imgur.com/9LQpBzs.jpg)
 
 
+### Options dialog (Window > Extensions > Politicians to Poop > Options)
+![](http://i.imgur.com/RZglvLS.jpg) 
 
-What about FireFox, Safari, Opera?
-=============
 
-Sorry, not yet. Pull requests and/or pointers to versions for those browsers will be happily accepted. Or maybe we'll get around to it.
+### CBS News
+![](http://i.imgur.com/zeNRpxO.jpg)
+
+### The Telegraph
+![](http://i.imgur.com/WUEoHaD.jpg)
+
+### Google Search Results
+![](http://i.imgur.com/YT1OcAc.jpg)
+
+
+
+
 
 
 
 Why are you doing this?
 =============
-
-
-<i>"This extension is improving my life."</i><br />
-	&mdash; Eunice R.
-
 
 Politicians to Poop is a public service project from <a href="http://www.evilmadscientist.com" title="Evil Mad Scientist Laboratories">Evil Mad Scientist Laboratories</a>. 
 
@@ -74,12 +78,21 @@ Democrats: Hillary Clinton, Bernie Sanders, Lincoln Chafee, and Martin O'Malley.
 Third-party and independent candidates: Roseanne Barr, Zoltan Istvan, Waka Flocka Flame, and Vermin Supreme. (While none of these yet seem "major" to our untrained eyes, it is good to have some names here as placeholders for future use.)
 
 
+If you use the version in the Chrome store, automatic updates will allow the list of names to be updated from time to time.
+
+
+What about FireFox, Safari, Opera?
+=============
+
+Sorry, not yet. Pull requests and/or pointers to versions for those browsers will be happily accepted. Or maybe we'll get around to it.
+
+
 
 Known issues
 =============
 
 Text replacement does not reliably work in some circumstances:
-* Text within images or other graphics
+* Text within images or other graphics 
 * Some pop-up windows and other cases of dynamically loaded content; we are trying to identify and fix these cases
 * When a name is interrupted by HTML tags or style changes, for example if the last name is in bold font, but the first name is not.
 
@@ -89,6 +102,17 @@ Text replacement may also work *too well* in some circumstances:
 
 If you identify other circumstances where text replacement does not work reliably (or generates too many false positives), please submit an issue on our github project to let us know.
 
+
+
+
+Manual Installation
+=============
+
+(For people who like to do things the hard way.)
+
+[Direct download of crx file](https://github.com/evil-mad/politicians-to-poop/blob/master/pol-to-poo.crx?raw=true)
+
+In Chrome, choose Window > Extensions. Drag pol-to-poo.crx into the page that appears.
 
 
 
