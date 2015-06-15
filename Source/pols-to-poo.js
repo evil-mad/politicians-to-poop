@@ -15,7 +15,7 @@ chrome.storage.sync.get({
 	thirdparty: true,
     extended: false
   }, function(items) { 
-	  	
+	
 	var addDemocrats = true; 
 	var addRepublicans = true; 
 	var addOthers = true; 
@@ -36,7 +36,7 @@ chrome.storage.sync.get({
 				// Note 2: For the more uncommon names (e.g., Santorum, Huckabee) we do not include titles.
 				// (Reasoning: "Senator 💩" is funnier than "💩" in most circumstances.)
 				// For more common names (e.g., Clinton, Cruz), we need to include more titles.
-				// The phrase "Senator Clinton" will (usually) identify Hillary but not Bill Clinton.
+				// The phrase "Senator Clinton" will identify Hillary but not Bill Clinton.
 				
 				SearchString += 'Rafael Edward "Ted" Cruz|Rafael Edward Cruz|Ted Cruz|Senator Cruz|TedCruz';
 				SearchString += '|Carly Fiorina|Cara Carleton Sneed|Ms. Fiorina|Mrs. Fiorina|CarlyFiorina|Fiorina';
@@ -48,7 +48,6 @@ chrome.storage.sync.get({
 				SearchString += '|Randal Howard "Rand" Paul|Randal Howard Paul|Rand Paul|Senator Paul|RandPaul';
 				SearchString += '|Mike Huckabee|MikeHuckabee|Michael Dale "Mike" Huckabee|Michael Dale Huckabee|Michael Huckabee|Huckabee';
 				SearchString += '|Rick Perry|Governor Perry|James Richard "Rick" Perry|James Richard Perry|RickPerry';
-				
 				SearchString += '|John Ellis "Jeb" Bush|John Ellis Bush|Jeb Bush|JebBush'; 
 				
 				if ( addShortNames == true)
@@ -93,15 +92,19 @@ chrome.storage.sync.get({
 
 			if (( addShortNames == true) && (addRepublicans == true))
 				{	
-					$("body *").replaceText( /\bRand\b|\bBush\b|\bPaul\b/gi, "<span class='poopy'>💩</span>"  );	// Use word boundaries to prevent false positives.
+					$("body *").replaceText( /\bRand\b|\bBush\b|\bPaul\b/gi, "<span class='poopy'>💩</span>"  );// Use word boundaries to prevent false positives.
 				}
 			
-			$("<style type='text/css'> .poopy{ font-style: normal !important;font-weight: normal !important ;font-family: serif !important;} </style>").appendTo("head");
+			if($("style:contains('.poopy')").length < 1)
+			{
+				$("<style type='text/css'>.poopy{ font-style: normal !important;font-weight: normal !important ;font-family: serif !important;} </style>").appendTo("head"); 
+			}
+			
 			//Emoji will often not display in a CSS container that is specified to be in bold face, italic, or a specific font.
 			//This CSS override will fix that in most (but not all) cases.
 			
 			} 
-});
+	});
 
 }
 
@@ -110,6 +113,6 @@ document.addEventListener("DOMSubtreeModified", function() {
     if(timeout) {
         clearTimeout(timeout);
     }
-    timeout = setTimeout(poopify_page, 500);
+    timeout = setTimeout(poopify_page, 500);	// Update every 500 ms -- allows searches of dynamically loaded content.
 }, false);
 
