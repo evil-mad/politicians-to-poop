@@ -55,7 +55,7 @@ Why are you doing this?
 
 Politicians to Poop is a public service project from <a href="http://www.evilmadscientist.com" title="Evil Mad Scientist Laboratories">Evil Mad Scientist Laboratories</a>. 
 
-Possible reasons that you might want to use this extension might include:
+Possible reasons that you might want to use this extension include:
 
 * You are from outside the US, and don't need to hear these names every day.
 * You are temporarily overloaded by the amount of poop that the candidates sling at one another.
