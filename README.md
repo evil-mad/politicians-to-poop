@@ -11,7 +11,7 @@ Options allow you to "poopify" the names of Democrats, Republicans, or both. (An
 
 
 
-Installation
+Automatic Installation
 =============
 
 Step 1: Visit the [Chrome web store](https://chrome.google.com/webstore/detail/politicians-to-poop/fghbpihcplaofldgkofhbbcgdfgikcnp), and click the "Add to Chrome" button. 
@@ -22,8 +22,11 @@ Step 3: Carry on with your new, improved life.
 
 
 
-<p />
-<b>Manual installation:</b> (For people who don't like to do things the easy, normal way.)
+
+Manual Installation
+=============
+
+(For people who like to do things the hard way.)
 
 [Direct download of crx file](https://github.com/evil-mad/politicians-to-poop/blob/master/pol-to-poo.crx?raw=true)
 
@@ -34,7 +37,7 @@ In Chrome, choose Window > Extensions. Drag pol-to-poo.crx into the page that ap
 What about FireFox, Safari, Opera?
 =============
 
-Sorry, not yet. Pull requests and/or pointers to versions for those browsers will be happily accepted.
+Sorry, not yet. Pull requests and/or pointers to versions for those browsers will be happily accepted. Or maybe we'll get around to it.
 
 
 
@@ -52,6 +55,7 @@ Possible reasons that you might want to use this extension might include:
 
 * You are from outside the US, and don't need to hear these names every day.
 * You are temporarily overloaded by the amount of poop that the candidates sling at one another.
+* It's easier (but note: MUCH less effective) than voting.
 * Because it is funny.
 
 
