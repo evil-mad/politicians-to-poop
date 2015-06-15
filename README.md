@@ -22,8 +22,8 @@ Step 3: Carry on with your new, improved life.
 
 
 
-
-Manual installation: 
+<p />
+<b>Manual installation:</b> (For people who don't like to do things the easy, normal way.)
 
 [Direct download of crx file](https://github.com/evil-mad/politicians-to-poop/blob/master/pol-to-poo.crx?raw=true)
 
