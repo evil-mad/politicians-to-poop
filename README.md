@@ -65,6 +65,8 @@ Possible reasons that you might want to use this extension might include:
 
 No judgement upon any of the named individuals, nor their platforms, parties, or beliefs is either implied or intended. This is an equal-opportunity text replacement tool, for the good of all humanity.
 
+And... seriously... *please vote!*
+
 
 List of named participants
 =============
