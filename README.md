@@ -14,9 +14,9 @@ Options allow you to "poopify" the names of Democrats, Republicans, or both. (An
 Installation
 =============
 
-Step 1: Visit the [Chrome web store](https://chrome.google.com/webstore/detail/politicians-to-poop/fghbpihcplaofldgkofhbbcgdfgikcnp), as a free extension. 
+Step 1: Visit the [Chrome web store](https://chrome.google.com/webstore/detail/politicians-to-poop/fghbpihcplaofldgkofhbbcgdfgikcnp), and click the "Add to Chrome" button. 
 
-Step 2: (Optional) Open Window > Extensions within Chrome, and set your preferences for political parties.
+Step 2: (Optional) Within Chrome, open Window > Extensions, and set your preferences for political parties.
 
 Step 3: Carry on with your new, improved life. 
 
