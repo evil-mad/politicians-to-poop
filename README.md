@@ -73,7 +73,7 @@ List of named participants
 
 The following individuals are currently identified as "major" political candidates, meeting the necessary criteria for inclusion in this list:
 
-Republicans: Ted Cruz, Carly Fiorina, Ben Carson, Marco Rubio, Rick Santorum, Lindsey Graham, George Pataki, Rand Paul, Mike Huckabee, Rick Perry, and Jeb Bush.
+Republicans: Ted Cruz, Carly Fiorina, Ben Carson, Marco Rubio, Rick Santorum, Lindsey Graham, George Pataki, Rand Paul, Mike Huckabee, Rick Perry, Jeb Bush, and Donald Trump.
 
 Democrats: Hillary Clinton, Bernie Sanders, Lincoln Chafee, and Martin O'Malley.
 
@@ -95,12 +95,11 @@ Known issues
 
 Text replacement does not reliably work in some circumstances:
 * Text within images or other graphics 
-* Some pop-up windows and other cases of dynamically loaded content; we are trying to identify and fix these cases
 * When a name is interrupted by HTML tags or style changes, for example if the last name is in bold font, but the first name is not.
 
 Text replacement may also work *too well* in some circumstances:
 * Text may be inappropriately replaced in text input boxes, for example if you type one of the candidate names.
-* The filter may be a little too aggressive in some cases. For example, "Carly" or "Hillary" on their own may match many other names besides those of the actual candidates. In the options, you may wish to keep the "Include short but common abbreviated name forms..." checkbox disabled, in order to reduce the number of "false positives."
+* The filter may be a little too aggressive in some cases. For example, "Carly" or "Hillary" on their own may match many other names besides those of the actual candidates. In the options, you may wish to keep the "Include short but common abbreviated name forms..." checkbox disabled, in order to reduce the number of false positives.
 
 If you identify other circumstances where text replacement does not work reliably (or generates too many false positives), please submit an issue on our github project to let us know.
 

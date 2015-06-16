@@ -49,10 +49,13 @@ chrome.storage.sync.get({
 				SearchString += '|Mike Huckabee|MikeHuckabee|Michael Dale "Mike" Huckabee|Michael Dale Huckabee|Michael Huckabee|Huckabee';
 				SearchString += '|Rick Perry|Governor Perry|James Richard "Rick" Perry|James Richard Perry|RickPerry';
 				SearchString += '|John Ellis "Jeb" Bush|John Ellis Bush|Jeb Bush|JebBush'; 
+				SearchString += '|Donald John Trump Sr.|Donald John Trump|Donald Trump'; 
+				
+				
 				
 				if ( addShortNames == true)
 				{
-					SearchString += "|Cruz|Carly|Carson|Graham|Pataki|Perry|Jeb|Governor Bush";				
+					SearchString += "|Cruz|Carly|Carson|Graham|Pataki|Perry|Jeb|Governor Bush|Trump|The Donald";				
 				}
 			}
 		
