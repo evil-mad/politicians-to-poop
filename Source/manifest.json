@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Politicians To Poop",
-	"version": "1.0.5",
+	"version": "1.0.6",
 	"version_name": "1.0.6 Jindal",
 	"author":  "Evil Mad Scientist Laboratories",
 	"description": "Replace presidential candidate names with the pile-of-poo emoji.",
