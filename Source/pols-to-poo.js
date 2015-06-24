@@ -85,7 +85,7 @@ chrome.storage.sync.get({
 				if (SearchString != '')
 					{SearchString += '|';}
 				SearchString += 'Roseanne Cherrie Barr|Roseanne Barr|Zoltan Istvan|Vermin Supreme|Waka Flocka Flame|Juaquin James Malphurs'; 
-				SearchString += '|Waka Flocka|Robert David Steele|Robert D. Steele|Jill Ellen Stein|Jill Stein'; 
+				SearchString += '|Waka Flocka|Robert David Steele|Robert D. Steele|Robert Steele|Jill Ellen Stein|Jill Stein'; 
 	
 				if ( addShortNames == true)
 				{
