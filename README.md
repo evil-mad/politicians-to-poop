@@ -76,11 +76,11 @@ List of named participants
 
 The following individuals are currently identified as "major" political candidates, meeting the necessary criteria for inclusion in this list:
 
-Republicans: Ted Cruz, Carly Fiorina, Ben Carson, Marco Rubio, Rick Santorum, Lindsey Graham, George Pataki, Rand Paul, Mike Huckabee, Rick Perry, Jeb Bush, and Donald Trump.
+Republicans: Ted Cruz, Carly Fiorina, Ben Carson, Marco Rubio, Rick Santorum, Lindsey Graham, George Pataki, Rand Paul, Mike Huckabee, Rick Perry, Jeb Bush, Donald Trump, and Bobby Jindal.
 
 Democrats: Hillary Clinton, Bernie Sanders, Lincoln Chafee, and Martin O'Malley.
 
-Third-party and independent candidates: Roseanne Barr, Zoltan Istvan, Waka Flocka Flame, and Vermin Supreme. (While none of these yet seem "major" to our untrained eyes, it is good to have some names here as placeholders for future use.)
+Third-party and independent candidates: Roseanne Barr, Zoltan Istvan, Waka Flocka Flame, Vermin Supreme, Robert David Steele, and Jill Stein. (While none of these yet seem "major" to our untrained eyes, it is good to have some names here as placeholders for future use.)
 
 
 If you use the version in the Chrome store, automatic updates will allow the list of names to be updated from time to time.

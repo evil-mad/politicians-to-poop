@@ -50,6 +50,9 @@ chrome.storage.sync.get({
 				SearchString += '|Rick Perry|Governor Perry|James Richard "Rick" Perry|James Richard Perry|RickPerry';
 				SearchString += '|John Ellis "Jeb" Bush|John Ellis Bush|Jeb Bush|JebBush'; 
 				SearchString += '|Donald John Trump Sr.|Donald John Trump|Donald Trump'; 
+				SearchString += '|Piyush "Bobby" Jindal|Bobby Jindal|Piyush Jindal|Jindal'; 
+				
+				
 				
 				
 				
@@ -82,7 +85,7 @@ chrome.storage.sync.get({
 				if (SearchString != '')
 					{SearchString += '|';}
 				SearchString += 'Roseanne Cherrie Barr|Roseanne Barr|Zoltan Istvan|Vermin Supreme|Waka Flocka Flame|Juaquin James Malphurs'; 
-				SearchString += '|Waka Flocka'; 
+				SearchString += '|Waka Flocka|Robert David Steele|Robert D. Steele|Jill Ellen Stein|Jill Stein'; 
 	
 				if ( addShortNames == true)
 				{
