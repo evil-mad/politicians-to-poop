@@ -51,10 +51,7 @@ chrome.storage.sync.get({
 				SearchString += '|John Ellis "Jeb" Bush|John Ellis Bush|Jeb Bush|JebBush'; 
 				SearchString += '|Donald John Trump Sr.|Donald John Trump|Donald Trump'; 
 				SearchString += '|Piyush "Bobby" Jindal|Bobby Jindal|Piyush Jindal|Jindal'; 
-				
-				
-				
-				
+				SearchString += '|Christopher James "Chris" Christie|Chris Christie'; 
 				
 				if ( addShortNames == true)
 				{
@@ -86,6 +83,7 @@ chrome.storage.sync.get({
 					{SearchString += '|';}
 				SearchString += 'Roseanne Cherrie Barr|Roseanne Barr|Zoltan Istvan|Vermin Supreme|Waka Flocka Flame|Juaquin James Malphurs'; 
 				SearchString += '|Waka Flocka|Robert David Steele|Robert D. Steele|Robert Steele|Jill Ellen Stein|Jill Stein'; 
+				SearchString += '|Dan Brandon Bilzerian|Dan Bilzerian'; 
 	
 				if ( addShortNames == true)
 				{
@@ -98,7 +96,7 @@ chrome.storage.sync.get({
 
 			if (( addShortNames == true) && (addRepublicans == true))
 				{	
-					$("body *").replaceText( /\bRand\b|\bBush\b|\bPaul\b|\bTrump\b/gi, "<span class='poopy'>💩</span>"  );// Use word boundaries to prevent false positives.
+					$("body *").replaceText( /\bRand\b|\bBush\b|\bPaul\b|\bChristie\b|\bTrump\b/gi, "<span class='poopy'>💩</span>"  );// Use word boundaries to prevent false positives.
 				}
 			
 			if($("style:contains('.poopy')").length < 1)
