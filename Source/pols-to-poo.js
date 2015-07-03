@@ -69,6 +69,7 @@ chrome.storage.sync.get({
 				SearchString += '|Bernard "Bernie" Sanders|Bernard Sanders|Bernie Sanders|Senator Sanders|BernieSanders';
 				SearchString += '|Lincoln Chafee|Governor Chafee|Senator Chafee|LincolnChafee|Chafee';
 				SearchString += "|Martin Joseph O'Malley|Martin O'Malley|Governor O'Malley|martinomalley|O'Malley";
+				SearchString += '|James Henry "Jim" Webb, Jr.|James Henry Webb, Jr.|James Webb|Jim Webb';
 		
 				if ( addShortNames == true)
 				{
@@ -98,6 +99,12 @@ chrome.storage.sync.get({
 				{	
 					$("body *").replaceText( /\bRand\b|\bBush\b|\bPaul\b|\bChristie\b|\bTrump\b/gi, "<span class='poopy'>💩</span>"  );// Use word boundaries to prevent false positives.
 				}
+
+			if (( addShortNames == true) && (addDemocrats == true))
+				{	
+					$("body *").replaceText( /\bWebb\b/gi, "<span class='poopy'>💩</span>"  );// Use word boundaries to prevent false positives.
+				}
+
 			
 			if($("style:contains('.poopy')").length < 1)
 			{

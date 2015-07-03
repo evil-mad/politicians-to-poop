@@ -78,7 +78,7 @@ The following individuals are currently identified as "major" political candidat
 
 Republicans: Ted Cruz, Carly Fiorina, Ben Carson, Marco Rubio, Rick Santorum, Lindsey Graham, George Pataki, Rand Paul, Mike Huckabee, Rick Perry, Jeb Bush, Donald Trump, Bobby Jindal, and Chris Christie.
 
-Democrats: Hillary Clinton, Bernie Sanders, Lincoln Chafee, and Martin O'Malley.
+Democrats: Hillary Clinton, Bernie Sanders, Lincoln Chafee, Martin O'Malley, and Jim Webb.
 
 Third-party and independent candidates: Roseanne Barr, Zoltan Istvan, Waka Flocka Flame, Vermin Supreme, Robert David Steele, Jill Stein, and Dan Bilzerian. (While none of these yet seem "major" to our untrained eyes, it is good to have some names here as placeholders for future use.)
 
