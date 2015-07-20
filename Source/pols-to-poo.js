@@ -53,9 +53,16 @@ chrome.storage.sync.get({
 				SearchString += '|Piyush "Bobby" Jindal|Bobby Jindal|Piyush Jindal|Jindal'; 
 				SearchString += '|Christopher James "Chris" Christie|Chris Christie'; 
 				
+				SearchString += '|James Stuart "Jim" Gilmore III|James Stuart Gilmore|Jim Gilmore'; 
+				SearchString += '|Scott Kevin Walker|Scott Walker'; 
+				SearchString += '|John Richard Kasich|John Kasich|Kasich'; 
+
+
+
+				
 				if ( addShortNames == true)
 				{
-					SearchString += "|Cruz|Carly|Carson|Graham|Pataki|Perry|Jeb|Governor Bush|The Donald";				
+					SearchString += "|Cruz|Carly|Carson|Graham|Pataki|Perry|Jeb|Governor Bush|The Donald|Gilmore|Walker";				
 				}
 			}
 		
@@ -69,11 +76,11 @@ chrome.storage.sync.get({
 				SearchString += '|Bernard "Bernie" Sanders|Bernard Sanders|Bernie Sanders|Senator Sanders|BernieSanders';
 				SearchString += '|Lincoln Chafee|Governor Chafee|Senator Chafee|LincolnChafee|Chafee';
 				SearchString += "|Martin Joseph O'Malley|Martin O'Malley|Governor O'Malley|martinomalley|O'Malley";
-				SearchString += '|James Henry "Jim" Webb, Jr.|James Henry Webb, Jr.|James Webb|Jim Webb';
+				SearchString += '|James Henry "Jim" Webb, Jr.|James Henry Webb, Jr.|Jim Webb';
 		
 				if ( addShortNames == true)
 				{
-					SearchString += "|Hillary|Rodham|Clinton|Bernie|Sanders";
+					SearchString += "|Hillary|Rodham|Clinton|Bernie|James Webb|Sanders";
 				}
 			}
 	

@@ -76,7 +76,7 @@ List of named participants
 
 The following individuals are currently identified as "major" political candidates, meeting the necessary criteria for inclusion in this list:
 
-Republicans: Ted Cruz, Carly Fiorina, Ben Carson, Marco Rubio, Rick Santorum, Lindsey Graham, George Pataki, Rand Paul, Mike Huckabee, Rick Perry, Jeb Bush, Donald Trump, Bobby Jindal, and Chris Christie.
+Republicans: Ted Cruz, Carly Fiorina, Ben Carson, Marco Rubio, Rick Santorum, Lindsey Graham, George Pataki, Rand Paul, Mike Huckabee, Rick Perry, Jeb Bush, Donald Trump, Bobby Jindal, Chris Christie, Scott Walker, John Kasich and Jim Gilmore.
 
 Democrats: Hillary Clinton, Bernie Sanders, Lincoln Chafee, Martin O'Malley, and Jim Webb.
 
